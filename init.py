@@ -12,4 +12,4 @@ def server_info():
     return jsonify(person)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
